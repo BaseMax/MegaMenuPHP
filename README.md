@@ -89,4 +89,19 @@ Array
 )
 ```
 
+### Database Structure
+
+```sql
+CREATE TABLE `menu` (
+  `id` int(20) NOT NULL,
+  `menu_id` int(20) NOT NULL,
+  `parent_id` int(20) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE `menu_item` (
+  `id` int(20) NOT NULL,
+  `name` varchar(54) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+```
+
 © Copyright 2022, Max Base
