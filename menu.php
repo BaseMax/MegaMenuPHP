@@ -9,10 +9,11 @@ function menu($parent_id = null)
     global $db;
     $items = [];
 
+    $sql = "SELECT `menu_item`.* FROM `menu` INNER JOIN `menu_item` ON `menu_item`.`id` = `menu`.`menu_id` WHERE parent_id ";
     if ($parent_id === null)
-        $stmt = $db->prepare("SELECT * FROM `menu` WHERE parent_id IS NULL;");
+        $stmt = $db->prepare("$sql IS NULL;");
     else
-        $stmt = $db->prepare("SELECT * FROM `menu` WHERE parent_id = $parent_id;"); // $parent_id is a trusted value
+        $stmt = $db->prepare("$sql = $parent_id;"); // $parent_id is a trusted value
     $stmt->execute();
     $items = $stmt->fetchAll(PDO::FETCH_NAMED);
 
