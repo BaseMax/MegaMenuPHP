@@ -1,5 +1,7 @@
 # Mega Menu PHP
 
+**MegaMenuPHP** is a simple menu system for PHP that allows you to recursively get menu items and its submenus.
+
 ## Using
 
 ```sh
