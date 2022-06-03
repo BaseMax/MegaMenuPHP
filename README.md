@@ -80,3 +80,5 @@ Array
         )
 )
 ```
+
+© Copyright 2022, Max Base
