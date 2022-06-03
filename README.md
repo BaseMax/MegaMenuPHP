@@ -1,4 +1,4 @@
-# MegaMenuPHP
+# Mega Menu PHP
 
 ### Tree
 
