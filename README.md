@@ -8,7 +8,26 @@
 $ php menu.php
 ```
 
-### Test Data
+### Tree
+
+```
+- Personal cabinet
+- News
+     - Sub Test 1
+          - Sub Test 2
+- Sitemap
+     - Sub Test 1
+          - Sub Test 2
+- Information
+     - Sub Test 1
+          - Sub Test 2
+- Contacts
+- System
+     - Official site
+     - Supporting forum
+```
+
+### Test Table Data
 
 **Menu:**
 
@@ -42,7 +61,7 @@ $ php menu.php
 | 9 | Sub Test 1 |
 | 10, | Sub Test 2 |
 
-### Tree
+### Tree Array
 
 ```
 Array
