@@ -1,5 +1,11 @@
 # Mega Menu PHP
 
+## Using
+
+```sh
+$ php menu.php
+```
+
 ### Tree
 
 ```
