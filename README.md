@@ -8,6 +8,40 @@
 $ php menu.php
 ```
 
+### Test Data
+
+**Menu:**
+
+| ID | Menu ID | Parent ID|
+|----|---------|----------|
+| 1 | 1 | NULL |
+| 2 | 2 | NULL |
+| 3 | 3 | NULL |
+| 4 | 4 | NULL |
+| 5 | 5 | NULL |
+| 6 | 6 | NULL |
+| 7 | 7 | 6 |
+| 8 | 8 | 6 |
+| 9 | 9 | 2 |
+| 10 | 9 | 3 |
+| 11 | 9 | 4 |
+| 12 | 10 | 9 |
+
+**Menu Item:**
+
+| ID | Name |
+|----|------|
+| 1 | Personal cabinet |
+| 2 | News |
+| 3 | Sitemap |
+| 4 | Information |
+| 5 | Contacts |
+| 6 | System |
+| 7 | Official site |
+| 8 | Supporting forum |
+| 9 | Sub Test 1 |
+| 10, | Sub Test 2 |
+
 ### Tree
 
 ```
